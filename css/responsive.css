@@ -214,7 +214,28 @@ h1 {
 }
 
 .content {
-	width: 40%;
+	width: 35%;
+}
+
+.profile-photo {
+	display: block;
+	width: 10%;
+	margin: 5% auto 30px;
+	border-radius: 100%;
+}
+
+
+.icon-git {
+	width: 3%;
+	position: absolute;
+	left: 42%;
+}
+
+.icon-linkedin {
+	width: 3%;
+	position: absolute;
+	left: 55%;
+	border-radius: 100%;
 }
 
 

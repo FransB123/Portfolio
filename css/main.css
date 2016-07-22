@@ -1,3 +1,4 @@
+
 /*******************
 GENERAL
 ********************/
@@ -121,8 +122,9 @@ PORTFOLIO SECTION
 	
 }
 
-.first-page img p, .second-page img p, .third-page img p {
-	 
+.first-page p, .second-page p, .third-page p {
+	 margin: 0 0 10% 0;
+	 padding: 3%;
 }
 
 
