@@ -111,6 +111,7 @@ PORTFOLIO SECTION
 	border: 2px solid #ddd;
 	-webkit-box-shadow: 0 0 5px #ddd;
         box-shadow: 0 0 5px #ddd;
+    opacity: .7;
 
 }
 	
@@ -119,7 +120,6 @@ PORTFOLIO SECTION
 	width: 50%;
 	min-width: 200px;
 
-	
 }
 
 .first-page p, .second-page p, .third-page p {
@@ -127,6 +127,9 @@ PORTFOLIO SECTION
 	 padding: 3%;
 }
 
+.gallery img:hover {
+	opacity: 1;
+}
 
 /********************
 ABOUT SECTION
@@ -239,14 +242,23 @@ nav a, nav a:visited {
 
 /* gallery */
 
-.gallery p { 
+.gallery p {
 	color: #525252;
-	background-color: #ddd; 	
+	background-color: #ddd;
 }
 
+ .gallery p:hover {
+	color: #430304;
+	}
 
 /* footer */
 
 footer {
 	color: #525252;
+}
+
+.hover-feature {
+	  background-color: #000;
+	}
+
 }
