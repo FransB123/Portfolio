@@ -29,7 +29,7 @@ HEADING
 h1 {
 	font-family: 'Dosis', sans-serif;
 	margin: 15px 0;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: bold;
 	line-height: 0.8em;
 	text-align: center;
@@ -54,6 +54,7 @@ NAVIGATION
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	z-index: 10;
 	}
 
 
@@ -104,14 +105,15 @@ PORTFOLIO SECTION
 	flex-grow: 1;
 	justify-content: center;
 
+
 }
 
 .first-page img, .second-page img, .third-page img {
 	max-width: 100%;
-	border: 2px solid #ddd;
+	border: 2px solid #ddd;;
 	-webkit-box-shadow: 0 0 5px #ddd;
         box-shadow: 0 0 5px #ddd;
-    opacity: .7;
+    opacity: .8;
 
 }
 	
@@ -125,6 +127,29 @@ PORTFOLIO SECTION
 .first-page p, .second-page p, .third-page p {
 	 margin: 0 0 10% 0;
 	 padding: 3%;
+}
+
+.button {
+	display: flex;
+	opacity: .8;
+
+}
+
+.button a {
+	text-align: center;
+	width: 100%;
+	border-radius: 5%;
+	padding: 1vh;
+	margin: -2vh 0 1vh 0;
+	border: 1px solid #B00019;
+	
+
+}
+
+.button a:hover {
+	background-color: #B00019;
+	color: #fff;
+
 }
 
 .gallery img:hover {
@@ -144,6 +169,7 @@ ABOUT SECTION
 
 .content {
 	width: 90%;
+
 }
 
 .profile-photo {
@@ -176,6 +202,7 @@ ABOUT SECTION
 
 
 
+
 /**********************
 FOOTER
 **********************/
@@ -186,6 +213,7 @@ footer {
 	clear: both;
 	padding-top: 30px;
 	color: #9a9a9a;
+
 }
 
 
@@ -247,14 +275,20 @@ nav a, nav a:visited {
 	background-color: #ddd;
 }
 
- .gallery p:hover {
-	color: #430304;
-	}
+
+
+
+.button a {
+	background-color: #fff;
+	color: #B00019;
+}
+
 
 /* footer */
 
 footer {
 	color: #525252;
+
 }
 
 .hover-feature {
@@ -262,3 +296,5 @@ footer {
 	}
 
 }
+
+
